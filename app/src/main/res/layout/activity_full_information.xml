@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/descTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="To do description"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="32dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="72dp"
+      />
+
+    <TextView
+        android:id="@+id/degreeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="degree"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="32dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="36dp"
+        />
+
+    <TextView
+        android:id="@+id/createDateTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="To do create date"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="32dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="36dp"
+        />
+
+    <TextView
+        android:id="@+id/deadlineTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="To do deadline"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="32dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="36dp"
+        />
+
+    <CheckBox
+        android:id="@+id/openCheckBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginTop="32dp"
+        android:text="Open"
+        android:textSize="18sp"/>
+    <CheckBox
+        android:id="@+id/developmentCheckBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="32dp"
+
+        android:text="Development"
+        android:textSize="18sp"/>
+    <CheckBox
+        android:id="@+id/uploadingCheckBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="32dp"
+
+        android:text="Uploading"
+        android:textSize="18sp"/>
+    <CheckBox
+        android:id="@+id/rejectCheckBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="32dp"
+
+        android:text="Reject"
+        android:textSize="18sp"/>
+    <CheckBox
+        android:id="@+id/closedCheckBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="32dp"
+        android:text="Closed"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/acceptBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Accept"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"/>
+
+</LinearLayout>

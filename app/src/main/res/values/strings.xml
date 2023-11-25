@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ExpandableListView</string>
+    <string name="gea">Position: Goalkeeper Club: Manchester United Nationality: Spanish Notable Achievements: Multiple-time winner of the Sir Matt Busby Player of the Year award at Manchester United.</string>
+    <string name="rasford">Position: Forward Club: Manchester United Nationality: English Notable Achievements: Known for his pace, skill, and goal-scoring ability. Also, involved in philanthropy work, advocating for child food poverty.</string>
+    <string name="ramsdeyl">Position: Goalkeeper Club: Manchester United (on loan at Sheffield United in the past) Nationality: English Notable Achievements: Played a key role in Sheffield United\'s promotion to the Premier League during the 2018-2019 season.</string>
+    <string name="gabriel">Position: Center-back Club: Arsenal Nationality: Brazilian Notable Achievements: Joined Arsenal in 2020 and has been a solid presence in defense.</string>
+    <string name="silva">Position: Midfielder/Forward Club: Manchester City Nationality: Portuguese Notable Achievements: Part of the Manchester City team that won multiple Premier League titles. Known for his technical ability and vision on the field.</string>
+    <string name="sterling">Position: Forward Club: Manchester City Nationality: English Notable Achievements: Key player for both Manchester City and the England national team. Known for his speed and goal-scoring ability.</string>
+</resources>
